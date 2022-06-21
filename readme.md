@@ -13,10 +13,11 @@ Teste prático de Django com Django-Admin.
 ```
 git clone https://github.com/donaukinder/fpftech.git
 cd fpftech
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
+python3 -m venv .env
+source env/bin/activate
+python manage.py runserver
+Acessa a rota http://127.0.0.1:8000/admin
+Logue com o usuário admin e senha admin.
 ```
 
 ## Links
