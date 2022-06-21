@@ -16,7 +16,7 @@ cd fpftech
 python3 -m venv .env
 source env/bin/activate
 python manage.py runserver
-Acessa a rota http://127.0.0.1:8000/admin
+Acesse a rota http://127.0.0.1:8000/admin
 Logue com o usuário admin e senha admin.
 ```
 
