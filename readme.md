@@ -15,7 +15,7 @@ git clone https://github.com/donaukinder/fpftech.git
 cd fpftech
 python3 -m venv .env
 source env/bin/activate
-python manage.py runserver
+python3 manage.py runserver
 Acesse a rota http://127.0.0.1:8000/admin
 Logue com o usuário admin e senha admin.
 ```
