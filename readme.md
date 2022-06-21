@@ -11,12 +11,11 @@ Teste prático de Django com Django-Admin.
 * Rode as migrações.
 
 ```
-git clone https://github.com/rg3915/django-simples.git
-cd django-simples
+git clone https://github.com/donaukinder/fpftech.git
+cd fpftech
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python contrib/env_gen.py
 python manage.py migrate
 ```
 
